@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <!-- Opción Home -->
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/menu_home" />
+
+        <!-- Opción Listado -->
+        <item
+            android:id="@+id/nav_listado"
+            android:title="Listado" />
+
+        <!-- Opción Rendimiento -->
+        <item
+            android:id="@+id/nav_rendimiento"
+            android:title="Rendimiento" />
+
+        <!-- Opción Equipo -->
+        <item
+            android:id="@+id/nav_equipo"
+            android:title="Equipo" />
+    </group>
+</menu>
